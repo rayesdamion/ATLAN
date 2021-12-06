@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Atlan</title>
+  </head>
+<div class="container">
+  <div id="option-buttons" class="btn-grid">
+    <button class="btn"> <a href="https://codepen.io/Rayes-D/full/yLzeePm">START</a> </button>
+    <button class="btn"> <a href="">HELP</a> </button>
+    <button class="btn"> <a href="">ABOUT</a> </button>
+      </div>
+  <style>
+  *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 110vh; 
+  background-color: #333;
+  font-family: Courier New, monospace;
+  color: white;
+  background-image: url("https://64.media.tumblr.com/0d33946e3c8863325b07e2ce34be78b4/bac62857f9968497-71/s640x960/a21c74ab053e32f963c68ad5797b748fdba72a42.gifv");
+      background-repeat: no-repeat;
+      background-position: 75% 100%;
+      background-size: cover;
+}
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 6.4px;
+  background-color: rgba(0, 0, 0,.45);
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0,.45);
+  border: 3px solid hsl(200, 10%, 30%);
+  border-radius: 3px; 
+  padding: 5px 10px;
+  color: white;
+  font-family: Courier New, monospace;
+  outline: none; 
+}
+
+.btn:hover {
+  border-color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+  </body>
+</html>
